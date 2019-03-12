@@ -1,0 +1,440 @@
+* { 
+    padding: 0; 
+}
+body, html {
+    font-size: 10px;
+    width: 1020px;
+    margin: 0 auto;   
+}
+header{
+    height: 63px;
+    width: 100%;
+    margin: 6px 0 0 15px;
+    background-color:#323232;
+    display: flex;
+    justify-content: center;
+}
+.z1{
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+    position: absolute;
+    top: -111px;
+    left: 444px;;
+
+}
+ul{
+    align-items: center;
+    justify-content: space-around;
+    margin: 9px;
+    position: relative;
+    top: -1px;
+    left: 37px;
+}
+ul a { 
+    text-decoration: none; 
+    color: #7d7d7d;
+    
+   }
+.liPortf{
+    color: #307969;
+   }
+.li2{
+    color: #484C5F;
+}
+.navigation ul li {
+    margin: 5px;
+    display: inline;
+}
+
+.article .subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    background: 
+}
+
+.image {
+    width: 200px;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+p, wrapper{
+    font-weight: bold;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+
+.hexagon {
+    width: 182px;
+    height: 209px;
+    display: inline-block;
+    margin: 8px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    position: relative;
+    
+}
+ 
+.hex-layer-1 {
+    
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    
+    overflow: hidden;
+}
+
+.hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 33@1X.png');
+}
+
+
+.hex-lay-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 31@1X.png');
+}
+
+.hex-laye-32 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 34@1X.png');
+}
+
+.hex-layer-42 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 35@1X.png');
+}
+
+.hex-layer-21 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 36@1X.png');
+}
+
+.hex-layer-22 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 44@1X.png');
+}
+.hex-layer-23 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 37@1X.png');
+}
+.hex-layer-24 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 38@1X.png');
+}
+.hex-layer-25 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 39@1X.png');
+}
+
+.hex-layer-31 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 40@1X.png');
+}
+.hex-layer-32 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 41@1X.png');
+}
+.hex-layer-33 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 43@1X.png');
+}
+.hex-layer-34 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Layer\ 42@1X.png');
+}
+.row-hex-cont1{
+    position: relative;
+    top: 82px;
+    left: 126px;
+}
+
+.row-hex-cont2{
+    position: relative;
+    top: 21px;
+    left: 26px;
+}
+
+.row-hex-cont3 {
+    position: relative;
+    top: -37px; 
+    margin: 0 0 0 125px;
+    
+}
+
+.load li {
+    display: inline;
+    margin: 1px 0;
+    
+}
+
+.hrList {
+    position: relative;
+    top: 0px;
+    left: 17px;
+    width: 958px;
+    height: 1px;
+    color: #e4e9eb;
+}
+.article {
+    height: 341px;
+    background-color: #2eb398;
+    position: relative;
+    display: flex;
+    top: 3px;
+    left: 15px;
+}
+.fot{
+    position: relative;
+    top: 61px;
+    left: -162px;
+    width: 190px;
+    height: 250px;
+}
+.foto {
+    width: 180px;
+    height: 206px;
+    display: inline-block;
+    left: 80px;
+    margin: 8px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    position: relative;
+    
+}
+ 
+.foto-1 {    
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.foto-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccc;
+    overflow: hidden;
+    background-image: url('../assets/img/Image@1X.png');
+}
+
+.hrFoto{
+    height: 315px;
+    width: 0.5px;
+    color: #219d84;
+    transform: rotate(180deg);
+    position: relative;
+    left: -2px;
+    top: 12px;
+}
+
+.hrBlock{
+    width: 20%;
+}
+.divMy{
+    position: relative;
+    left: -66px;
+    top: 15px;
+}
+.pMy{
+    width: 581px;
+    font-family: ﻿Lato-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+    
+}
+h3{
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 30pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 18pt;
+    color: rgba(32, 129, 109, 255);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+.hr2Block{
+    height: 315px;
+    width: 0.5px;
+    color: #219d84;
+    transform: rotate(180deg);
+    position: relative;
+    left: -45px;
+    top: 9px;
+}
+.footer{
+    display: flex;
+    background-color: #323232;
+}
+.in-touch-fotm{
+    width: 72%;
+    position: left;
+    background-color: #323232;
+}
+
+.right{
+    width: 28%;
+    position: right;
+    background-color: #323232;
+}
+.get{
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 28pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+    margin: 2px;
+    padding: 60px 0 0 138px;
+}
+.inOrder{
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 14pt;
+color: rgba(190, 190, 190, 255);
+text-align: justify;
+margin: 2px;
+    padding: 0 0 5px 138px;
+}
+.name{
+    width: 580px;
+    height: 38px;
+    background-color: #454545;
+    margin: 0 0 10px 138px;
+}
+.email{
+    width: 580px;
+    height: 38px;
+    background-color: #454545;
+    margin: 3px 0 10px 138px;
+}
+
+.password{
+    width: 580px;
+    height: 38px;
+    background-color: #454545;
+    margin: 3px 0 10px 138px;
+}
+.textarea{
+    width: 580px;
+    height: 150px;
+    background-color: #454545;
+    margin: 3px 0 10px 138px;
+}
+.button-submit{
+    position: relative;
+    top: -2px;
+    left: 635px;
+    height: 37px;
+    width: 89px;
+    background-color: #2eb398;
+    color: #cff8f0;
+}
+#quisque{
+    margin: 135px 95px 5px 9px;
+    font-family: ﻿Lato-Black, ﻿Lato-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 10pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+.info{
+    margin:37px 10px 2px 32px; 
+}
+.loc{
+    position: relative;
+    top: 50px;
+    left: 12px;
+}
+.pho{
+    position: relative;
+    top: 71px;
+    left: 0px;
+}
+.mai{
+    position: relative;
+    top: 91px;
+    left: -14px;
+}
+/*
+.hexagon:hover {
+    transform: rotate(-240deg);
+    transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.row {
+    min-width: 600px;
+
+}
+
+.row-translate .hexagon {
+    position: relative;
+    top: -55px;
+    left: 95px;
+}
+
+.row-native:not(first-child) {
+    margin-top: -85px;
+}
+*/
